@@ -1,0 +1,46 @@
+h1{
+    font-size: 30;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    padding: 10px;
+    background-color: orange;
+}
+
+body{
+    background-size: cover;
+}
+
+h3{
+    padding: 10px;
+    width: fit-content;
+    font-size: 15;
+}
+
+canvas{
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: black;
+    margin: 50px;
+}
+
+
+#footer{
+    background-color: gray;
+    color: white;
+    margin-bottom: 0px;
+    bottom: 0px;
+    position:fixed;
+    width: 100%;
+    padding: 5px;
+}
+input{
+    width: 20%;
+}
+
+
+@keyframes example{
+  from{box-shadow: 3px 3px 38px red;}
+    to{box-shadow: 3px 3px 38px blue;}
+}
